@@ -97,8 +97,8 @@ class _ProductCardState extends State<ProductCard> {
               height: 40,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => MyApp()));
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => ProductPage()));
                 },
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(
